@@ -7,8 +7,9 @@ In Oracle databases, sequences are commonly used to generate unique numeric iden
 2- Prerequisites
 - Oracle Database
 - User with appropriate privileges to create sequences and triggers
+  
 3- Instructions
-- Set up Cursors: The script declares two cursors:
+Set up Cursors: The script declares two cursors:
 
 - seq_curs: Retrieves the names of existing sequences owned by the current user.
 - pk_curs: Identifies distinct primary key columns in tables, ensuring they are of data type 'NUMBER'.
